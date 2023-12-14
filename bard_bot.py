@@ -59,8 +59,9 @@ existing_messages = [{'role': row[1], 'content': row[2], 'hostname': row[3], 'da
 # Adiciona mensagens existentes ao estado do Streamlit
 st.session_state["messages"].extend(existing_messages)
 
-os.environ['_BARD_API_KEY'] = 'cgi95_I7_jZh_eWSffPddrEa7kyv0kI0y9BZ8Zur8IIN5Wxbkocxmwt-Vgmy6x29VoW0IA.'
-token = 'cgi95_I7_jZh_eWSffPddrEa7kyv0kI0y9BZ8Zur8IIN5Wxbkocxmwt-Vgmy6x29VoW0IA.'
+#_BARD_API_KEY e token , precisam ser o retorno do  __Secure-1PSID
+os.environ['_BARD_API_KEY'] = ''
+token = ''
 
 # Tratativa para pagina Analytics
 bard_api_key = token
