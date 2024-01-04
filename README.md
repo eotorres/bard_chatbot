@@ -20,8 +20,8 @@ A alteração precisa ser no diretório de sua escolha.
 
 Para utilizar o cookie do seu navegador é necessário alterar,
 
-os.environ['_BARD_API_KEY'] = 'cgi95_I7_jZh_eWSffPddrEa7kyv0kI0y9BZ8Zur8IIN5Wxbkocxmwt-Vgmy6x29VoW0IA.'
-token = 'cgi95_I7_jZh_eWSffPddrEa7kyv0kI0y9BZ8Zur8IIN5Wxbkocxmwt-Vgmy6x29VoW0IA.'
+os.environ['_BARD_API_KEY'] = ''
+token = ''
 
 e passar as suas credenciais no ""__Secure-1PSID""
 
